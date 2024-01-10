@@ -34,6 +34,10 @@ com.virtuoworks.cordova-plugin-canvascamera
 ```
 
 # 使い方
+`quaggaScanner.scan(callback , codeformat)`:
+- callback:バーコードスキャン完了後に実行されるコールバック処理を記述します。
+- codeformat(optional):スキャンするバーコードのフォーマットを指定します。指定しない場合はEANになります。
+
 ``` JavaScript
 quaggaScanner.scan(
   function (result) {
