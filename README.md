@@ -31,6 +31,7 @@ cordovaアプリケーション用のQuaggaJSを使用したバーコード読�
 ## プラグインのインストール
 ```
 com.virtuoworks.cordova-plugin-canvascamera
+cordova-plugin-ionic-keyboard
 ```
 
 # 使い方
