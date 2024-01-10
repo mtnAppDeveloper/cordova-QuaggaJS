@@ -1,0 +1,52 @@
+/* This is a CSS file */
+
+.scanner{
+    background: #000000ad;
+    width: 100%;
+    height: calc(100% + 45px);
+    position: absolute;
+    top: 0px;
+    z-index: 99999;
+    display: none;
+    text-align: center;
+}
+.scanner canvas{
+    position: absolute;
+    width: 288px;
+    height: 362px;
+    top: calc(50% - 181px);
+    left:calc(50% - 144px);
+    background-color: #000000;
+}
+.scanner .guide{
+    width: 50%;
+    height: 1px;
+    border: 1px solid red;
+    position: absolute;
+    top: 45%;
+    display: block;
+    left: 25%;
+    animation: flash 3s linear infinite;
+}
+@keyframes flash {
+  0%,100% {
+	opacity: 1;
+  }
+
+  50% {
+	opacity: 0;
+  }
+}
+.scanner button{
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    bottom: 20%;
+    background-color: #181818;
+    border: transparent;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    z-index: 99999;
+}
